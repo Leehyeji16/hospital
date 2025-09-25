@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>혜징이 랜딩 - 2025-07-16</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/detailedpage.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ===== SVG BACKGROUND LINES ===== -->
+    <div class="svg_box" aria-hidden="true">
+        <svg class="bg0" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg1" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg2" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg3" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg4" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg5" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+        <svg class="bg6" width="1920" height="10351" viewBox="0 0 1920 10351" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M409.227 42.5801C315.181 228.556 194.547 671.363 464.387 954.781C801.687 1309.05 1219.6 1593.32 1486.9 1593.32C1754.19 1593.32 1448.71 1075.7 1232.33 1639.99C1015.95 2204.28 1385.31 2519.87 1534.02 2750.62C1682.72 2981.37 1979.28 3140.33 1605.81 3658.23C1232.33 4176.14 457.189 4653.02 308.485 4683.78C159.78 4714.55 102.328 4333.49 395.656 4406.88C688.985 4480.28 918.685 4755.57 1262.25 5099.13C1605.81 5442.69 1821.17 5950.34 1677.59 6534.9C1534.02 7119.47 698.193 7857.86 405.911 8098.87C113.629 8339.87 21.3289 9114.17 303.356 9611.56C585.382 10108.9 1072.52 10052.5 1149.44 10052.5C1226.35 10052.5 1723.75 10052.5 1723.75 9770.52" />
+        </svg>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <input type="checkbox" id="nav-toggle" hidden />
+    <header class="site-header">
+        <div class="centerbox">
+            <label for="nav-toggle" class="hamburger mo" aria-label="메뉴 열기"><span></span></label>
+
+            <h1 class="logo">
+                <a href="#visual" aria-label="홈으로 이동">
+                    <img src="imges/logo.png" alt="로고" />
+                </a>
+            </h1>
+
+            <nav class="pc-gnb pc" aria-label="주요 메뉴">
+                <ul class="gnb">
+                    <li><a href="#visual">HOME</a></li>
+                    <li><a href="#part1_2">모바일진료</a></li>
+                    <li><a href="#part2_1">안심서비스</a></li>
+                    <li><a href="#part3_1">병원소개</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="mo-drawer">
+            <label for="nav-toggle" class="drawer-dim" aria-hidden="true"></label>
+            <aside class="drawer-panel" role="dialog" aria-label="모바일 메뉴">
+                <div class="drawer-head">
+                    메뉴
+                    <label for="nav-toggle" class="btn-close" aria-label="닫기">✕</label>
+                </div>
+                <nav class="drawer-nav">
+                    <ul class="gnb">
+                        <li><a href="#visual">HOME</a></li>
+                        <li><a href="#part1_2">모바일진료</a></li>
+                        <li><a href="#part2_1">안심서비스</a></li>
+                        <li><a href="#part3_1">병원소개</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+    </header>
+
+    <!-- ===== VISUAL ===== -->
+    <section id="visual" class="visual">
+        <img src="imges/main1.jpg" alt="" />
+        <div class="centerbox">
+            <div class="textbox">
+                <strong>AI 기반 스마트 진료, <br />하이메디병원의 새로운 기준</strong>
+                <p>더욱 안전하고 정밀해진 스마트 의료 시스템으로 환자분들에게 다가가겠습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTIONS ===== -->
+    <main id="section_box">
+        <section id="part1">
+            <!-- 1-1 -->
+            <div class="part1_1">
+                <div class="centerbox">
+                    <h2>하이메디병원의 특별한 시스템,<br>‘스마트 의료 시스템’</h2>
+
+                    <ul class="content_box">
+                        <li data-aos="fade-up" data-aos-duration="1200">
+                            <figure><img src="imges/part1-1.png" alt=""></figure>
+                            <div class="title">AI 스마트 진료 시스템</div>
+                            <ul class="content">
+                                <li>증상 입력 시 자동으로 예비 진단 제공</li>
+                                <li>대기 시간 단축 및 진료 정확도 향상</li>
+                                <li>환자 맞춤형 진료 기록 관리</li>
+                            </ul>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                            <figure><img src="imges/part1-2.png" alt=""></figure>
+                            <div class="title">모바일 진료 예약/접수 서비스</div>
+                            <ul class="content">
+                                <li>병원 앱에서 24시간 진료 예약 가능</li>
+                                <li>실시간 대기 순서 확인</li>
+                                <li>비대면 문진 작성 기능 제공</li>
+                            </ul>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                            <figure><img src="imges/part1-3.png" alt=""></figure>
+                            <div class="title">통합 건강검진 리포트</div>
+                            <ul class="content">
+                                <li>종합검진 결과를 시각화하여 제공</li>
+                                <li>의사와 1:1 건강 리포트 상담</li>
+                                <li>개인별 맞춤 건강 관리 솔루션 제공</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1-2 -->
+            <div id="part1_2" class="part1_2">
+                <div class="centerbox">
+                    <ul class="content">
+                        <li class="banner">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="imges/part1_2_img1.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="imges/part1_2_img2.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="imges/part1_2_img3.png" alt=""></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </li>
+                        <li class="text">
+                            <div class="number"><span>1</span></div>
+                            <h3>모바일 진료 시스템</h3>
+                            <p>
+                                병원 키오스크 또는 앱을 통해 간편하게 접수 가능하며 <br />
+                                비대면 문진, 대기시간 확인, 진료 내역 확인까지 <br />
+                                스마트한 병원 방문 경험을 제공합니다!
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1-3 -->
+            <div class="part1_3">
+                <div class="centerbox">
+                    <h2 class="title">
+                        <span><img src="imges/dda1.png" alt=""></span>
+                        <strong>환자 중심 스마트 시스템으로</strong>
+                        <span><img src="imges/dda2.png" alt=""></span>
+                    </h2>
+
+                    <ul class="content">
+                        <li data-aos="flip-left" data-aos-duration="1000">
+                            <figure><img src="imges/part3_1_img1.png" alt=""></figure>
+                            <p>키오스크 및 앱으로<br>손 쉽게 접수가 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                            <figure><img src="imges/part1_3_img2.png" alt=""></figure>
+                            <p>대기 시간을 조회하여<br>효율적인 예약이 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                            <figure><img src="imges/part1_3_img3.png" alt=""></figure>
+                            <p>비대면으로 문진을 작성하여<br>빠른 진료가 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                            <figure><img src="imges/part1_3_img4.png" alt=""></figure>
+                            <p>장소와 상관없이<br>검사 결과를 확인 가능합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1-4 -->
+            <div class="part1_4">
+                <div class="centerbox">
+                    <h2 class="title">
+                        <span><img src="imges/dda1.png" alt=""></span>
+                        <strong>환자 중심 스마트 시스템으로</strong>
+                        <span><img src="imges/dda2.png" alt=""></span>
+                    </h2>
+
+                    <ul class="content">
+                        <li>
+                            <figure><img src="imges/part1_4_img1.png" alt=""></figure>
+                            <p>키오스크 및 앱으로<br>손 쉽게 접수가 가능합니다.</p>
+                        </li>
+                        <li>
+                            <figure><img src="imges/part1_4_img2.png" alt=""></figure>
+                            <p>대기 시간을 조회하여<br>효율적인 예약이 가능합니다.</p>
+                        </li>
+                        <li>
+                            <figure><img src="imges/part1_4_img3.png" alt=""></figure>
+                            <p>비대면으로 문진을 작성하여<br>빠른 진료가 가능합니다.</p>
+                        </li>
+                        <li>
+                            <figure><img src="imges/part1_4_img4.png" alt=""></figure>
+                            <p>장소와 상관없이<br>검사 결과를 확인 가능합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1-5 -->
+            <div class="part1_5">
+                <div class="centerbox">
+                    <h2>하나의 앱으로 예약 · 접수 · 결과까지 확인 가능한,<br>‘Hi-Medi App’ 서비스 도입</h2>
+
+                    <ul class="content">
+                        <li>진료 예약 및 접수</li>
+                        <li>처방전 및<br>검사 결과 알림</li>
+                        <li>처방전 및<br>검사 결과 알림</li>
+                        <li>비대면<br>영상 진료 서비스</li>
+                        <li>간편 온라인<br>결제 시스템</li>
+                        <li>실시간 진료<br>대기 현황 확인</li>
+                        <li>병원 길찾기 및 주차</li>
+                        <li>고객센터 및 <br>1:1 문의 지원</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1-6 -->
+            <div class="part1_6">
+                <div class="centerbox">
+                    <h2 class="title">
+                        <span><img src="imges/dda1.png" alt=""></span>
+                        <strong>환자 중심 스마트 시스템으로</strong>
+                        <span><img src="imges/dda2.png" alt=""></span>
+                    </h2>
+
+                    <ol class="content">
+                        <li class="cont">
+                            <strong class="number">1</strong>
+                            <div class="title">복약 알림 및 건강 리마인더</div>
+                            <p>중요한 복약 시간,<br>알림으로 관리 해 드립니다.</p>
+                        </li>
+                        <li class="cont">
+                            <strong class="number">2</strong>
+                            <div class="title">가족 건강 통합 관리</div>
+                            <p>부모님부터 자녀까지<br>정보 통합 확인이 가능합니다.</p>
+                        </li>
+                        <li class="cont">
+                            <strong class="number">3</strong>
+                            <div class="title">진료 전후 알림 시스템</div>
+                            <p>예약일, 검사일정 등<br>자동 알림 시스템이 제공됩니다.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- part2 -->
+        <section id="part2">
+            <div id="part2_1" class="part2_1">
+                <div class="centerbox">
+                    <div class="visual"><img src="imges/visual_part2_1.png" alt=""></div>
+                    <div class="text">
+                        <div class="number"><span>2</span></div>
+                        <h3>신규 고객 안심 이용 서비스</h3>
+                        <p>“처음의 불안을, 따뜻한 배려와 함께 하이메디가 동행하겠습니다.”</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part2_2">
+                <div class="centerbox">
+                    <h2 class="title">
+                        <span><img src="imges/dda1.png" alt=""></span>
+                        <strong>세부 서비스 가이드</strong>
+                        <span><img src="imges/dda2.png" alt=""></span>
+                    </h2>
+
+                    <ul class="content">
+                        <li data-aos="flip-left" data-aos-duration="1000">
+                            <figure><img src="imges/part2_2_img1.png" alt=""></figure>
+                            <p>키오스크 및 앱으로<br>손 쉽게 접수가 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                            <figure><img src="imges/part2_2_img2.png" alt=""></figure>
+                            <p>대기 시간을 조회하여<br>효율적인 예약이 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                            <figure><img src="imges/part2_2_img3.png" alt=""></figure>
+                            <p>비대면으로 문진을 작성하여<br>빠른 진료가 가능합니다.</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                            <figure><img src="imges/part2_2_img4.png" alt=""></figure>
+                            <p>장소와 상관없이<br>검사 결과를 확인 가능합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- part3 -->
+        <section id="part3">
+            <div id="part3_1" class="part3_1">
+                <div class="centerbox">
+                    <div class="visual"><img src="imges/visual_part3_1.png" alt=""></div>
+                    <div class="text">
+                        <div class="number"><span>3</span></div>
+                        <h3>신뢰를 바탕으로 한 의료, 미래를 향한 동행</h3>
+                        <p>하이메디병원은 환자 중심의 스마트 의료 서비스를 넘어, <br>모두가 신뢰할 수 있는 진료환경을 만들어가고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part3_2">
+                <div class="centerbox">
+                    <h2 class="title">
+                        <span><img src="imges/dda1.png" alt=""></span>
+                        <strong>장점</strong>
+                        <span><img src="imges/dda2.png" alt=""></span>
+                    </h2>
+
+                    <ul class="content">
+                        <li data-aos="flip-left" data-aos-duration="1000">
+                            <figure><img src="imges/part3_1_img1.png" alt=""></figure>
+                            <p>진심어린 진료</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                            <figure><img src="imges/part3_1_img2.png" alt=""></figure>
+                            <p>끊임없는 개선</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                            <figure><img src="imges/part3_1_img3.png" alt=""></figure>
+                            <p>함께하는 병원</p>
+                        </li>
+                        <li data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                            <figure><img src="imges/part3_1_img4.png" alt=""></figure>
+                            <p>열린 소통의 문화</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="part3_3">
+                <div class="centerbox">
+                    <h2 class="title">하이메디병원이 지켜온 3가지 약속</h2>
+
+                    <ul class="content">
+                        <li>
+                            <h3>정직한 진료</h3>
+                            <div class="cont">환자에게 꼭 필요한 진료만 <br>권합니다.</div>
+                        </li>
+                        <li>
+                            <h3>투명한 비용 안내</h3>
+                            <div class="cont">진료 전후, 비용에 대한 상세 안내를 통해 불안함 없는 병원 이용을 돕습니다.</div>
+                        </li>
+                        <li>
+                            <h3>배려하는 환경 조성</h3>
+                            <div class="cont">편안하게 진료과정을 위해<br>대기부터 퇴원까지 세심히<br>배려합니다.</div>
+                        </li>
+                    </ul>
+
+                    <div class="logo_box">
+                        <img src="imges/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="part3_4">
+                <div class="centerbox">
+                    <div class="content_box">
+                        <div class="title">
+                            <img src="imges/icon_circle2.png" alt="">
+                            <div class="tit_box">
+                                <span class="tit1">하이메디병원</span>
+                                <span class="tit2">가맹점 리뷰</span>
+                            </div>
+                        </div>
+
+                        <ul class="content">
+                            <li>“접수부터 진료까지 너무 편했어요!”<br>키오스크 이용이 처음이었는데 직원분이<br>친절하게 도와주셔서 빠르게 접수할 수 있었어요.<br>대기도 짧고 진료도
+                                만족스러웠습니다.</li>
+                            <li>“앱으로 진료 내역확인하니 안심돼요”<br>평소 부모님 진료를 챙기기 힘들었는데,<br>모바일로 진료 내역과 복약 정보를 확인할 수 있어서 정말 유용했어요.
+                            </li>
+                            <li>“비급여 항목도 투명하게 안내돼서 좋아요”<br>진료 전 비용에 대해 상세히 설명해줘서 불안하지 않았어요.<br>병원 가는 게 더 이상 스트레스가 아니에요.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part3_5">
+                <div class="centerbox">
+                    <h2>
+                        <span class="s_text">"환자가 체감하는 변화, 스마트 시스템이 만듭니다."</span>
+                        “작은 변화가 큰 만족을 만듭니다.”
+                    </h2>
+
+                    <ul class="content">
+                        <li>
+                            <strong>“스마트 시스템 도입 후<br>65%에서 92%로 만족도가 <br>향상되었습니다.”</strong>
+                        </li>
+                        <li class="graph_wrap">
+                            <div class="graph_box">
+                                <ul class="graph">
+                                    <li>
+                                        <div class="gra">65%</div>
+                                    </li>
+                                    <li>
+                                        <div class="gra">92%</div>
+                                    </li>
+                                </ul>
+                                <ul class="title">
+                                    <li>2024년</li>
+                                    <li>2025년</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="centerbox">
+            <ul class="content_box">
+                <li>하이메디병원</li>
+                <li>사업자등록번호 : 314-28-26335</li>
+                <li>대표전화 : 042-471-4777</li>
+                <li>이메일 무단수집 거부</li>
+                <li class="clor">개인정보처리방침</li>
+            </ul>
+
+            <p class="warn">*본 사이트의 모든 콘텐츠는 저작권법에 의해 보호를 받는 저작물이므로 무단전재 및 무단복제를 엄금합니다.</p>
+            <p class="copy">Copyright © YOU &amp; GREEN. All Rights Reserved. Designed by STUDIO-JT.</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            pagination: { el: ".swiper-pagination", clickable: true },
+            autoplay: { delay: 2500, disableOnInteraction: false }
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            // 스무스 스크롤(내비)
+            $('.gnb a').on('click', function (e) {
+                const target = $(this).attr('href');
+                if (target && target.startsWith('#')) {
+                    e.preventDefault();
+                    const top = $(target).offset().top - 72; // 헤더 높이 보정
+                    $('html, body').animate({ scrollTop: top }, 500);
+                    $('#nav-toggle').prop('checked', false); // 모바일 드로어 닫기
+                }
+            });
+
+            // 헤더 축소 / SVG 라인 진행
+            $(window).on('scroll', function () {
+                const winSct = $(this).scrollTop();
+                $('header').toggleClass('on', winSct > 0);
+
+                const docH = $(document).height();
+                const winH = $(window).height();
+                const ratio = winSct / (docH - winH);
+                const svgLength = $('.svg_box path')[0].getTotalLength?.() || 10000;
+
+                $('svg.bg0').css({ strokeDasharray: (26 + ratio * svgLength) + ' 10000' });
+                $('svg.bg1').css({ strokeDashoffset: -40 - ratio * svgLength });
+                $('svg.bg2').css({ strokeDashoffset: -41 - ratio * svgLength });
+                $('svg.bg3').css({ strokeDashoffset: -43 - ratio * svgLength });
+                $('svg.bg4').css({ strokeDashoffset: -45 - ratio * svgLength });
+                $('svg.bg5').css({ strokeDashoffset: -41 - ratio * svgLength });
+                $('svg.bg6').css({ strokeDashoffset: -41 - ratio * svgLength });
+
+                // 그래프 애니메이션 트리거
+                const part35T = $('.part3_5').offset().top;
+                if (winSct > part35T - 300) $('.part3_5').addClass('on');
+            });
+        });
+    </script>
+    <script src="./action.js" defer></script>
+     
+</body>
+
+</html>
