@@ -140,7 +140,6 @@ header.on .centerbox nav .gnb a:hover {
 /* 로고도 투명일 때 흰색 필터 (로고가 어두운 색이라면) */
 header .centerbox h1 img {
     filter: none;
-    /* 원래 색으로 복원 */
     transition: filter .35s;
 }
 
@@ -173,7 +172,6 @@ header.on .centerbox h1 img {
     width: 100%;
     display: block;
     height: 100vh;
-    /* 원하는 만큼 조절 (80vh ~ 100vh) */
     object-fit: cover;
     object-position: center;
 }
@@ -440,13 +438,14 @@ header.on .centerbox h1 img {
     background: rgba(255, 255, 255, 0.6);
 }
 
+
 /* =========================================================
    PART 1-2
 ========================================================= */
 .part1_2 h2 {
     margin-bottom: 0px !important;
-    /* 원하는 값으로 조정 */
 }
+
 
 /* =========================================================
    PART 1-3 (통합, part1_4 삭제)
@@ -537,6 +536,7 @@ header.on .centerbox h1 img {
 .part1_3 .centerbox .content li:hover .icon-wrap {
     background: none;
 }
+
 @media (max-width: 1024px) {
     .part1_3 .centerbox .content {
         grid-template-columns: repeat(2, 1fr);
@@ -635,6 +635,7 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    PART 1-6
 ========================================================= */
@@ -657,7 +658,6 @@ header.on .centerbox h1 img {
 .part1_6 .centerbox .content .cont {
     flex-shrink: 0;
     margin-left: -30px;
-    /* 겹치는 정도 */
     position: relative;
     transition: transform 0.3s ease, z-index 0s;
 }
@@ -736,7 +736,6 @@ header.on .centerbox h1 img {
     line-height: 1.5;
 }
 
-/* 설명 */
 .part1_6 p {
     font-size: 16px;
     color: #505050;
@@ -765,13 +764,14 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    PART 2-1
 ========================================================= */
 .part2_1 h2 {
     margin-bottom: 0px !important;
-    /* 원하는 값으로 조정 */
 }
+
 
 /* =========================================================
    PART 2-2
@@ -865,12 +865,12 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    PART 3-1
 ========================================================= */
 .part3_1 h2 {
     margin-bottom: 0px !important;
-    /* 원하는 값으로 조정 */
 }
 
 
@@ -1073,6 +1073,7 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    SPLIT LAYOUT 공통 (part1_2, part2_1, part3_1)
 ========================================================= */
@@ -1097,7 +1098,6 @@ header.on .centerbox h1 img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* 중앙 정렬 */
     text-align: center;
     gap: 24px;
 }
@@ -1144,7 +1144,6 @@ header.on .centerbox h1 img {
     color: var(--mainC1);
 }
 
-/* h2 위 파란 선 */
 .part1_2 .text-side h2::before,
 .part2_1 .text-side h2::before,
 .part3_1 .text-side h2::before {
@@ -1201,6 +1200,7 @@ header.on .centerbox h1 img {
         height: 300px;
     }
 }
+
 
 /* =========================================================
    PART 3-4
@@ -1391,6 +1391,7 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    PART GRAPH
 ========================================================= */
@@ -1499,8 +1500,6 @@ header.on .centerbox h1 img {
     pointer-events: none;
     z-index: 2;
     overflow: visible;
-    /* 추가 */
-
 }
 
 .part_graph .bars {
@@ -1608,6 +1607,7 @@ header.on .centerbox h1 img {
     }
 }
 
+
 /* =========================================================
    FOOTER
 ========================================================= */
@@ -1652,6 +1652,7 @@ footer .copy {
     font-family: 'Pretendard-Medium';
 }
 
+
 /* =========================================================
    SWIPER
 ========================================================= */
@@ -1670,6 +1671,7 @@ footer .copy {
     height: auto;
     object-fit: cover;
 }
+
 
 /* =========================================================
    MOBILE (<=1200px)
@@ -1904,7 +1906,6 @@ footer .copy {
     }
 }
 
-/* 초협소 보정 */
 @media (max-width:300px) {
     header .centerbox nav .gnb li {
         font-size: 14px;
