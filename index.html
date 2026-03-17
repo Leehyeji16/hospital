@@ -126,9 +126,10 @@
             <div id="part1_2" class="part1_2">
                 <div class="centerbox">
                     <div class="text-side">
-                        <div class="diamond-num"><span>1</span></div>
-
-                        <p class="label">모바일 진료 예약·접수</p>
+                        <div class="label-wrap">
+                            <div class="diamond-num"><span>1</span></div>
+                            <p class="label">모바일 진료 예약·접수</p>
+                        </div>
                         <h2>스마트폰 하나로<br>병원 방문 전<br>모든 것을 해결하세요</h2>
                         <p class="desc">앱 하나로 24시간 언제든지 진료를 예약하고 접수할 수 있습니다.
                             <br> 대기 순서 확인부터 비대면 문진까지, 병원 방문 전 모든 과정을 스마트하게
@@ -256,6 +257,8 @@
                             </div>
                         </li>
                     </ul>
+                    <button class="more-btn">더보기 ↓</button>
+
                 </div>
             </div>
 
@@ -267,9 +270,10 @@
                             <img src="imges/visual_part2_1.png" alt="">
                         </div>
                         <div class="text-side">
-                            <div class="diamond-num"><span>2</span></div>
-
-                            <p class="label">AI 기반 스마트 진료</p>
+                            <div class="label-wrap">
+                                <div class="diamond-num"><span>2</span></div>
+                                <p class="label">AI 기반 스마트 진료</p>
+                            </div>
                             <h2>증상을 입력하면<br>AI가 즉시 분석하여<br>예비 진단을 제공합니다</h2>
                             <p class="desc">축적된 의료 데이터를 기반으로 더욱 정밀하고 빠른 진료를 경험하실 수 있습니다.
                                 <br>환자 맞춤형 진료 기록 관리로 연속성 있는 치료를
@@ -367,8 +371,10 @@
                 <div id="part3_1" class="part3_1">
                     <div class="centerbox">
                         <div class="text-side">
-                            <div class="diamond-num"><span>3</span></div>
-                            <p class="label">통합 건강검진 리포트</p>
+                            <div class="label-wrap">
+                                <div class="diamond-num"><span>3</span></div>
+                                <p class="label">통합 건강검진 리포트</p>
+                            </div>
                             <h2>종합검진 결과를<br>한눈에 파악할 수 있도록<br>시각화하여 제공합니다</h2>
                             <p class="desc">의사와의 1:1 상담을 통해 개인 맞춤 건강 관리 솔루션을 받아보세요.
                                 <br>전년도 결과와 비교 분석으로 건강 변화를 정확히 추적합니다.
@@ -473,36 +479,41 @@
                                 <p>평균 4.9 / 5.0</p>
                             </div>
                         </div>
-                        <ul class="content">
-                            <li data-aos="fade-up" data-aos-duration="800">
-                                <div class="review-top">
-                                    <span class="review-num">Review 01.</span>
-                                    <span class="name">김○○ 님</span>
-                                    <div class="stars">★★★★★</div>
-                                </div>
-                                <p>접수부터 진료까지 너무 편했어요!<br> 키오스크 이용이 처음이었는데 직원분이 친절하게 도와주셔서 빠르게 접수할 수 있었어요. 대기도 짧고 진료도
-                                    만족스러웠습니다.</p>
-                            </li>
-                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                                <div class="review-top">
-                                    <span class="review-num">Review 02.</span>
-                                    <span class="name">이○○ 님</span>
-                                    <div class="stars">★★★★★</div>
-                                </div>
-                                <p>앱으로 진료 내역을 확인하니 안심돼요.<br> 평소 부모님 진료를 챙기기 힘들었는데, 모바일로 진료 내역과 복약 정보를 확인할 수 있어서 정말
-                                    유용했어요.
-                                </p>
-                            </li>
-                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                                <div class="review-top">
-                                    <span class="review-num">Review 03.</span>
-                                    <span class="name">박○○ 님</span>
-                                    <div class="stars">★★★★☆</div>
-                                </div>
-                                <p>비급여 항목도 투명하게 안내돼서 좋아요. <br>진료 전 비용에 대해 상세히 설명해줘서 불안하지 않았어요. 병원 가는 게 더 이상 스트레스가 아니에요.
-                                </p>
-                            </li>
-                        </ul>
+                        <div class="review-slider">
+                            <ul class="content">
+                                <li data-aos="fade-up" data-aos-duration="800">
+                                    <div class="review-top">
+                                        <span class="review-num">Review 01.</span>
+                                        <span class="name">김○○ 님</span>
+                                        <div class="stars">★★★★★</div>
+                                    </div>
+                                    <p>접수부터 진료까지 너무 편했어요!<br> 키오스크 이용이 처음이었는데 직원분이 친절하게 도와주셔서 빠르게 접수할 수 있었어요. 대기도 짧고 진료도
+                                        만족스러웠습니다.</p>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                                    <div class="review-top">
+                                        <span class="review-num">Review 02.</span>
+                                        <span class="name">이○○ 님</span>
+                                        <div class="stars">★★★★★</div>
+                                    </div>
+                                    <p>앱으로 진료 내역을 확인하니 안심돼요.<br> 평소 부모님 진료를 챙기기 힘들었는데, 모바일로 진료 내역과 복약 정보를 확인할 수 있어서 정말
+                                        유용했어요.</p>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                                    <div class="review-top">
+                                        <span class="review-num">Review 03.</span>
+                                        <span class="name">박○○ 님</span>
+                                        <div class="stars">★★★★☆</div>
+                                    </div>
+                                    <p>비급여 항목도 투명하게 안내돼서 좋아요. <br>진료 전 비용에 대해 상세히 설명해줘서 불안하지 않았어요. 병원 가는 게 더 이상 스트레스가
+                                        아니에요.</p>
+                                </li>
+                            </ul>
+                            <div class="review-nav">
+                                <button class="review-prev">&#8249;</button>
+                                <button class="review-next">&#8250;</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -531,12 +542,12 @@
                                             <stop offset="0%" stop-color="#3A62A8" stop-opacity="0.4" />
                                             <stop offset="100%" stop-color="#A0C4FF" stop-opacity="1" />
                                         </linearGradient>
-                                        <marker id="arrowhead" markerWidth="4" markerHeight="3" refX="2.5" refY="1.5"
+                                        <marker id="arrowhead" markerWidth="4" markerHeight="5" refX="0" refY="0.75"
                                             orient="auto">
-                                            <polygon points="0 0, 4 1.5, 0 3" fill="#A0C4FF" />
+                                            <polygon points="0 0, 2 0.75, 0 1.5" fill="#A0C4FF" />
                                         </marker>
                                     </defs>
-                                    <path id="arrowPath" fill="none" stroke="url(#arrowGradient)" stroke-width="5"
+                                    <path id="arrowPath" fill="none" stroke="url(#arrowGradient)" stroke-width="10"
                                         stroke-linecap="round" opacity="1" />
                                 </svg>
 
@@ -606,7 +617,10 @@
         </div>
     </footer>
 
-    <!-- ===== SCRIPTS ===== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ disable: true });</script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
     <script>
         const canvas = document.getElementById('particle-canvas');
         const ctx = canvas.getContext('2d');
@@ -666,13 +680,7 @@
         window.addEventListener('resize', () => { resize(); });
         init();
         drawParticles();
-    </script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init({ disable: true });</script>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-    <script>
         $(function () {
             $('.gnb a').on('click', function (e) {
                 const target = $(this).attr('href');
@@ -688,25 +696,10 @@
                 const winSct = $(this).scrollTop();
                 const visualH = $('#visual').outerHeight();
                 $('header').toggleClass('on', winSct > visualH - 100);
-
-                const docH = $(document).height();
-                const winH = $(window).height();
-                const ratio = winSct / (docH - winH);
-                const svgLength = $('.svg_box path')[0]?.getTotalLength?.() || 10000;
-
-                $('svg.bg0').css({ strokeDasharray: (26 + ratio * svgLength) + ' 10000' });
-                $('svg.bg1').css({ strokeDashoffset: -40 - ratio * svgLength });
-                $('svg.bg2').css({ strokeDashoffset: -41 - ratio * svgLength });
-                $('svg.bg3').css({ strokeDashoffset: -43 - ratio * svgLength });
-                $('svg.bg4').css({ strokeDashoffset: -45 - ratio * svgLength });
-                $('svg.bg5').css({ strokeDashoffset: -41 - ratio * svgLength });
-                $('svg.bg6').css({ strokeDashoffset: -41 - ratio * svgLength });
-
-                const part35T = $('.part3_5').offset().top;
-                if (winSct > part35T - 300) $('.part3_5').addClass('on');
             });
         });
 
+        // 그래프 애니메이션
         function animateGraph() {
             const bars = document.querySelectorAll('.part_graph .bar');
             const counts = document.querySelectorAll('.part_graph .count');
@@ -741,10 +734,13 @@
                     points.push({ x, y });
                 });
 
-                const start = points[0];
+                const start = {
+                    x: points[0].x,
+                    y: points[0].y + 60  // 숫자 키울수록 더 낮아짐
+                }; const isMobile = window.innerWidth <= 1200;
                 const end = {
-                    x: points[4].x + 30,
-                    y: points[4].y - 60
+                    x: points[4].x,          // +30 제거
+                    y: points[4].y - (isMobile ? -40 : 60)
                 };
 
                 const cp1x = start.x + (end.x - start.x) * 0.5;
@@ -787,60 +783,93 @@
                 }
             }
         });
-    </script>
-    <script>
+
+        // GSAP
         gsap.registerPlugin(ScrollTrigger);
 
-        gsap.from("#part1_2 .diamond-num", {
-            scrollTrigger: { trigger: "#part1_2", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, ease: "power2.out"
-        });
-        gsap.from("#part1_2 .label", {
-            scrollTrigger: { trigger: "#part1_2", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.15, ease: "power2.out"
-        });
-        gsap.from("#part1_2 h2", {
-            scrollTrigger: { trigger: "#part1_2", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.3, ease: "power2.out"
-        });
-        gsap.from("#part1_2 .desc", {
-            scrollTrigger: { trigger: "#part1_2", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.45, ease: "power2.out"
-        });
-        // part2_1
-        gsap.from("#part2_1 .diamond-num", {
-            scrollTrigger: { trigger: "#part2_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, ease: "power2.out"
-        });
-        gsap.from("#part2_1 .label", {
-            scrollTrigger: { trigger: "#part2_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.15, ease: "power2.out"
-        });
-        gsap.from("#part2_1 h2", {
-            scrollTrigger: { trigger: "#part2_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.3, ease: "power2.out"
-        });
-        gsap.from("#part2_1 .desc", {
-            scrollTrigger: { trigger: "#part2_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.45, ease: "power2.out"
+        const splitSections = ['#part1_2', '#part2_1', '#part3_1'];
+        splitSections.forEach(function (id) {
+            ['diamond-num', 'label', 'h2', 'desc'].forEach(function (cls, i) {
+                gsap.from(id + ' .' + cls, {
+                    scrollTrigger: { trigger: id, start: 'top 60%' },
+                    y: 30, opacity: 0, duration: 0.6, delay: i * 0.15, ease: 'power2.out'
+                });
+            });
         });
 
-        // part3_1
-        gsap.from("#part3_1 .diamond-num", {
-            scrollTrigger: { trigger: "#part3_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, ease: "power2.out"
+        // 리뷰 슬라이더
+        window.addEventListener('load', function () {
+            const slider = document.querySelector('.review-slider');
+            const list = document.querySelector('.part3_4 .content');
+            const prev = document.querySelector('.part3_4 .review-prev');
+            const next = document.querySelector('.part3_4 .review-next');
+            if (!slider || !list || !prev || !next) return;
+
+            const items = list.querySelectorAll('li');
+            const totalPages = items.length;
+            let page = 0;
+
+            function update() {
+                if (window.innerWidth > 1200) {
+                    list.style.transform = 'translateX(0)';
+                    prev.style.display = 'none';
+                    next.style.display = 'none';
+                    return;
+                }
+                prev.style.display = 'flex';
+                next.style.display = 'flex';
+
+                const slideW = slider.offsetWidth;
+                list.style.transform = `translateX(-${page * slideW}px)`;
+                prev.disabled = page === 0;
+                next.disabled = page >= totalPages - 1;
+            }
+
+            prev.addEventListener('click', function () {
+                if (page > 0) { page--; update(); }
+            });
+
+            next.addEventListener('click', function () {
+                if (page < totalPages - 1) { page++; update(); }
+            });
+
+            window.addEventListener('resize', function () {
+                page = 0;
+                update();
+            });
+
+            update();
         });
-        gsap.from("#part3_1 .label", {
-            scrollTrigger: { trigger: "#part3_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.15, ease: "power2.out"
-        });
-        gsap.from("#part3_1 h2", {
-            scrollTrigger: { trigger: "#part3_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.3, ease: "power2.out"
-        });
-        gsap.from("#part3_1 .desc", {
-            scrollTrigger: { trigger: "#part3_1", start: "top 60%" },
-            y: 30, opacity: 0, duration: 0.6, delay: 0.45, ease: "power2.out"
+
+        window.addEventListener('load', function () {
+            const moreBtn = document.querySelector('.part1_5 .more-btn');
+            if (!moreBtn) return;
+
+            function updateBtn() {
+                if (window.innerWidth <= 600) {
+                    moreBtn.style.display = 'block';
+                } else {
+                    moreBtn.style.display = 'none';
+                    // 접혔을 때 아이템도 초기화
+                    const hiddenItems = document.querySelectorAll('.part1_5 .centerbox .content li:nth-child(n+5)');
+                    hiddenItems.forEach(li => li.style.display = '');
+                    expanded = false;
+                    moreBtn.textContent = '더보기 ↓';
+                }
+            }
+
+            let expanded = false;
+            moreBtn.addEventListener('click', function () {
+                const hiddenItems = document.querySelectorAll('.part1_5 .centerbox .content li:nth-child(n+5)');
+                expanded = !expanded;
+                hiddenItems.forEach(li => {
+                    li.style.display = expanded ? 'flex' : 'none';
+                });
+                moreBtn.textContent = expanded ? '접기 ↑' : '더보기 ↓';
+            });
+
+            window.addEventListener('resize', updateBtn);
+            updateBtn();
         });
     </script>
 
